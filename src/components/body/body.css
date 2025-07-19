@@ -1,0 +1,32 @@
+.mainbody {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(218, 184, 110, 0.7), rgba(218, 184, 110, 0.7)),
+                url('../../assets/layer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phrase-text{
+    text-align: center;
+    max-width: 800px;
+}
+.phrase-text h1{
+    font-size: 70px;
+    font-weight: 700px;
+}
+.phrase-text p{
+    max-width: 800px;
+    margin: 10px auto 20px;
+    line-height: 1;
+    
+}
+@media (max-width: 640px) {
+.phrase-text h1{
+    font-size: 55px;
+    font-weight: 600px;
+}
+}

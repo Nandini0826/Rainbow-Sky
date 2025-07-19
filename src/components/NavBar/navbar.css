@@ -1,0 +1,110 @@
+.navbar{
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding-left: 6%;
+    padding-right: 8%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.dark-nav{
+    height: 6rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding-left: 6%;
+    padding-right: 8%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    left: 0;
+    z-index: 3;
+      background: linear-gradient(to bottom, rgba(230,166,28,0.8) 70%, rgba(0,0,0,0) 100%);
+
+}
+.logo{
+    object-fit: cover;
+    width: 8rem;
+    padding: 1.5vw;
+}
+.desktopMenuListItem{
+    margin: 5px 20px;
+    margin: 1rem;
+    color: black;
+    cursor: pointer;
+}
+.desktopMenuListItem:hover{
+color:  rgb(253, 253, 252);;
+padding-bottom: 0.5rem;
+border-bottom: 3px solid  rgb(254, 254, 253);
+}
+.desktopMenuBtn{
+    height: 3rem;
+    
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+}
+
+.desktopMenuImg{
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.3rem;
+}
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    min-width: 15rem;
+    background-color: black;
+    
+}
+.ListItem {
+    color: rgb(230,166,28);
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+}
+.ListItem:hover {
+    border-bottom: 3px solid rgb(230,166,28);
+}
+.Mobmenu {
+       display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+@media (max-width: 1024px) 
+{
+    .logo{
+    width: 6rem;
+    }
+}
+@media (max-width: 720px){
+    .Mobmenu{
+        display: flex;
+    }
+    .desktopMenu{
+        display: none;
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+    .logo{
+    width: 4rem;
+    }
+}

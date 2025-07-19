@@ -1,0 +1,31 @@
+.gallery-swiper {
+  padding: 20px 0;
+}
+
+.gallery-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-image {
+  width: 615px; 
+  height: 470px;
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  .gallery-image {
+    width: 462px;
+    height: 272px;
+  }
+}
+
+@media (max-width: 640px) {
+  .gallery-image {
+    width: 280px;
+    height:200px;
+    object-fit: contain;
+  }
+}
