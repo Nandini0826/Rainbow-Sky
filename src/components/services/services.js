@@ -5,7 +5,7 @@ import './services.css';
 import media from '../../assets/media work.png';
 import shortfilm from '../../assets/short films.png';
 import corporatefilm from '../../assets/feature films.png';
-import mediasupport from '../../assets/Media Support.png';
+import mediasupport from '../../assets/media support.png';
 
 const services = [media, shortfilm, corporatefilm, mediasupport];
 
