@@ -2,10 +2,6 @@ import React from 'react';
 import Title from '../Title/Title';
 import './services.css';
 import assets from '../../assets/assets';
-import media from '../../assets/media work.png';
-import shortfilm from '../../assets/short films.png';
-import corporatefilm from '../../assets/feature films.png';
-import mediasupport from '../../assets/media support.png';
 
 const services = [assets.media, assets.shortfilm, assets.featurefilm, assets.corporatefilm, assets.mediasupport];
 

@@ -7,23 +7,21 @@
   display: flex; 
   justify-content: center;
   align-items: center;
-  height: 30rem; /* default for desktop */
+  height: 30rem; 
 }
 
 .trailer_video {
   width: 100%;
-  border-radius: 12px; /* smooth corners */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* subtle shadow */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); 
 }
 
-/* Mobile view (max-width: 768px) */
 @media (max-width: 768px) {
   .Block {
-    height: 12rem; /* smaller height for phones/tablets */
+    height: 12rem; 
   }
 }
 
-/* Large desktop view (optional) */
 @media (min-width: 1080px) {
   .Block {
     max-height: 99rem; 

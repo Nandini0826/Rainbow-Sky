@@ -1,6 +1,4 @@
-import React from 'react'
 
-// assets.js
 const assets = {
   img1: "https://res.cloudinary.com/dlpzl3ozz/image/upload/v1754998554/img1_uxymv6.jpg",
   img2: "https://res.cloudinary.com/dlpzl3ozz/image/upload/v1754998554/img2_qipzsy.jpg",
