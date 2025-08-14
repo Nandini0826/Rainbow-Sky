@@ -1,0 +1,44 @@
+.Trailer {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.Block {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 30rem; /* default for desktop */
+}
+
+.trailer_video {
+  width: 100%;
+  border-radius: 12px; /* smooth corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* subtle shadow */
+}
+
+/* Mobile view (max-width: 768px) */
+@media (max-width: 768px) {
+  .Block {
+    height: 12rem; /* smaller height for phones/tablets */
+  }
+}
+
+/* Large desktop view (optional) */
+@media (min-width: 1080px) {
+  .Block {
+    max-height: 99rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .trailer_video {
+    max-height: 37rem;
+    width: auto;
+        margin: 4rem 2rem;
+
+
+  }
+
+}

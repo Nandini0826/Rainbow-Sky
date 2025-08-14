@@ -1,19 +1,16 @@
 import React from 'react';
 import './Awards.css';
 import Title from '../Title/Title';
-import nominated from '../../assets/nominated.jpg';
-import award from '../../assets/awards.jpg';
-import certification from '../../assets/certificate.jpg';
-
+import assets from '../../assets/assets';
 const Awards = () => {
   return (
     <div className='container'>
       <Title title='Award Winning Production Work' />
       <div className='awards-section'>
-        <img src={nominated} alt="Nominated" className='award-img nominated' />
+        <img src={assets.nomi} alt="Nominated" className='award-img nominated' />
         <div className='certificate-group'>
-          <img src={award} alt="Award" className='award-img' />
-          <img src={certification} alt="Certification" className='award-img' />
+          <img src={assets.award} alt="Award" className='award-img' />
+          <img src={assets.certificte} alt="Certification" className='award-img' />
         </div>
       </div>
     </div>

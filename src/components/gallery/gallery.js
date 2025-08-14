@@ -9,14 +9,9 @@ import { Pagination, EffectCoverflow, Navigation } from 'swiper/modules';
 import './gallery.css';
 import Title from '../Title/Title';
 
-import img1 from '../../assets/img1.jpg';
-import img2 from '../../assets/img2.jpg';
-import img3 from '../../assets/img3.jpg';
-import img4 from '../../assets/layer.jpg';
-import img5 from '../../assets/img5.jpg';
-import img6 from '../../assets/img6.png';
 
-const images = [img1, img2, img3, img4, img5, img6];
+import assets from '../../assets/assets';
+const images = [assets.img1, assets.img2, assets.img3, assets.img4, assets.img5, assets.img6];
 
 const Gallery = () => {
   return (
